@@ -30,6 +30,7 @@ $setpassword='请在这里填写密码啦ヾ(≧▽≦*)o';
   - 新增自行选择是否需要密码功能
   - 配置与程序分离
   - 修复 `errno` 不是 -21 且不正常时 HTTP 500 服务器错误的问题
+  - 修复 GET 方法访问 index.php?download 出错的问题，但是仍有坑，所有从 URL 的参数或者 POST 的数据获得的数据均要 `isset`
 
 ## 坑或不确定
 - `index.php`
